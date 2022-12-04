@@ -95,7 +95,8 @@
     transition: border-color 250ms $timing-control;
   }
 
-  &:hover + .modal-form__icon {
+  &:hover + .modal-form__icon,
+  &:focus + .modal-form__icon {
     fill: $color-primary;
   }
 }
