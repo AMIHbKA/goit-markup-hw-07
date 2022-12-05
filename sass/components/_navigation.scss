@@ -1,19 +1,19 @@
-.site-nav {
+.navigation {
   display: flex;
 }
 
-.site-nav__list {
+.navigation__list {
   display: flex;
   gap: 50px;
 }
 
-.site-nav__item {
+.navigation__item {
   font-weight: $font-weight-medium;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 
-.site-nav__link {
+.navigation__link {
   display: block;
   padding-block: 32px;
   color: $color-dark;
@@ -26,7 +26,7 @@
   }
 }
 
-.site-nav--current {
+.navigation__link_current {
   position: relative;
   color: $color-primary;
 
