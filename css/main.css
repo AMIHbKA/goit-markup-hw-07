@@ -509,6 +509,10 @@ section {
   outline: none;
 }
 
+.checkbox {
+  cursor: pointer;
+}
+
 .modal-form__input-checkbox {
   position: absolute;
   outline: none;
