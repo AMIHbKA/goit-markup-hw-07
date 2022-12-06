@@ -818,7 +818,6 @@ section {
 .footer {
   padding-block: 60px;
   background-color: #2f303a;
-  outline: 1px solid red;
 }
 
 .footer__wrapper {
