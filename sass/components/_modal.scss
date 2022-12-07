@@ -106,14 +106,10 @@
   width: 100%;
   height: 40px;
   padding-left: 30px;
-  cursor: pointer;
+
   border: 1px solid rgb(33 33 33 / 20%);
   border-radius: 4px;
   transition: border-color 250ms $timing-control;
-
-  &:focus {
-    cursor: auto;
-  }
 
   &:hover,
   &:focus {

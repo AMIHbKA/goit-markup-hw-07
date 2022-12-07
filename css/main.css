@@ -94,7 +94,6 @@ section {
 }
 .button-main:hover, .modal-form__button:hover, .form-subscription__button:hover, .button-main:focus, .modal-form__button:focus, .form-subscription__button:focus {
   background-color: #188ce8;
-  outline: none;
 }
 
 .form-subscription__button {
@@ -163,7 +162,6 @@ section {
 }
 .contacts__link:hover, .contacts__link:focus {
   color: #2196f3;
-  outline: none;
 }
 
 .contacts__icon {
@@ -321,15 +319,10 @@ section {
   width: 100%;
   height: 40px;
   padding-left: 30px;
-  cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-form__input:focus,
-.modal-form__textarea:focus {
-  cursor: auto;
 }
 .modal-form__input:hover, .modal-form__input:focus,
 .modal-form__textarea:hover,
@@ -408,7 +401,6 @@ section {
 }
 .navigation__link:hover, .navigation__link:focus {
   color: #2196f3;
-  outline: none;
 }
 
 .navigation__link_current {
@@ -494,15 +486,11 @@ section {
   padding: 15px 16px;
   margin-right: 12px;
   color: rgb(255, 255, 255);
-  cursor: pointer;
   background-color: inherit;
   -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-}
-.form_subscription__input:focus {
-  cursor: auto;
 }
 .form_subscription__input:hover, .form_subscription__input:focus {
   border-color: #fff;
